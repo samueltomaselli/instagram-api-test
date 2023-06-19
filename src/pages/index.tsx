@@ -5,23 +5,16 @@ export default function Home({ feed }: any) {
   const images = feed.data;
 
   return (
-    <main className="bg-gray-200 h-screen w-screen p-10">
+    <main className="bg-gray-200 h-screen w-screen p-10 overflow-x-hidden">
       <div className="flex flex-wrap gap-10 items-center justify-center h-full w-full">
         {images &&
           images.map((image: any, i: any) => (
-            <Link
-              href={image.permalink}
-              key={image.id}
-              className="relative w-[350px] h-[400px] transition-all duration-500 group"
-            >
+            <Link href={image.permalink} key={image.id} className="w-[320px] h-[380px] ">
               <img
                 src={image.media_url}
                 alt={image.caption}
-                className="group-hover:opacity-0 transition-all duration-500 "
+                className="grayscale hover:grayscale-0 h-full"
               />
-              <h3 className="group-hover:block hidden transition-all duration-500">
-                {image.caption}
-              </h3>
             </Link>
           ))}
       </div>
