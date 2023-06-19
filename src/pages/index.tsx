@@ -5,7 +5,7 @@ export default function Home({ feed }: any) {
   const images = feed.data;
 
   return (
-    <main className="bg-gray-200 h-screen w-screen p-10 overflow-x-hidden">
+    <main className="bg-gray-200 h-auto w-screen p-20  ">
       <div className="flex flex-wrap gap-10 items-center justify-center h-full w-full">
         {images &&
           images.map((image: any, i: any) => (
