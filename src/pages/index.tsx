@@ -14,10 +14,9 @@ export default function Home({ feed }: any) {
               key={image.id}
               className="relative w-[350px] h-[400px] transition-all duration-500 group"
             >
-              <Image
+              <img
                 src={image.media_url}
                 alt={image.caption}
-                fill
                 className="group-hover:opacity-0 transition-all duration-500 "
               />
               <h3 className="group-hover:block hidden transition-all duration-500">
