@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="fixed w-screen z-50 flex justify-center h-20 px-4 bg-white">
+    <header className="border-b-2 border-black fixed w-screen z-50 flex justify-center h-20 px-4 bg-white">
       <div className="flex items-center justify-between w-[1140px]">
         <Link href="/" className="text-2xl font-bold">
           LOGO

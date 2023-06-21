@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Hertel Advocacia em Schroeder/SC</title>
+        <title>Tattoo</title>
         <meta
           name="description"
           content="Serviços jurídicos em Direito Imobiliário, Previdenciário, Cível, Empresarial, Tributário, Família e Sucessões. Soluções em Direito Patrimonial. Inventários. Advogados."
