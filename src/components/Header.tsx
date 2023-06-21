@@ -10,18 +10,18 @@ const Header = () => {
           LOGO
         </Link>
         <nav className="lg:flex gap-5 hidden tracking-wide">
-          <a
+          <Link
             href="..#home"
             className="text-xl font-semibold uppercase text-black flex h-24 items-center border-b-4 border-b-transparent hover:text-primary transition-colors hover:border-b-4 hover:border-b-primary"
           >
             HOME
-          </a>
-          <a
+          </Link>
+          <Link
             href="/gallery"
             className="text-xl font-semibold uppercase text-black flex h-24 items-center border-b-4 border-b-transparent hover:text-primary transition-colors hover:border-b-4 hover:border-b-primary "
           >
             GALERIA
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Home = () => {
@@ -17,19 +18,19 @@ const Home = () => {
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4 text-base">
-              <a
+              <Link
                 className="block w-full rounded bg-red-600 px-12 py-3 font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
                 href="/get-started"
               >
                 Get Started
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="block w-full rounded px-12 py-3 font-medium border text-red-600 shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
                 href="/about"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
